@@ -1,7 +1,6 @@
 // Custom elements do layout: header, nav e footer.
 // Todas as páginas usam as mesmas tags: <my-header>, <my-nav> e <my-footer>.
 
-// *** Header ***
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
