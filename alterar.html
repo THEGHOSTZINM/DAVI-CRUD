@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/pgAlterar.js"></script>
+    <title>Alterar - Clarim Diário</title>
+</head>
+<body class="alterar">
+    <div class="fixed-top">
+        <my-header></my-header>
+        <my-nav></my-nav>
+    </div>
+
+    <main>
+        <section>
+            <h2>Editar Notícia</h2>
+            <div id="mensagem" class="mensagem">Escolha uma notícia para editar.</div>
+            <form id="noticiaForm" class="box box-form" hidden>
+                <input type="hidden" id="noticiaId">
+                <input type="text" id="noticiaTitle" placeholder="Título da notícia" autocomplete="off" required>
+                <textarea id="noticiaBody" placeholder="Conteúdo da notícia" rows="3" autocomplete="off" required></textarea>
+                <button type="submit">Alterar notícia</button>
+            </form>
+            <div id="noticiasContainer" class="box box-gallery"></div>
+        </section>
+    </main>
+
+    <my-footer></my-footer>
+</body>
+</html>
