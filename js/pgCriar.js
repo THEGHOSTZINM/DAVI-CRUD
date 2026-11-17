@@ -6,7 +6,7 @@ const corpo = document.querySelector('#noticiaBody');
 const mensagem = document.querySelector('#mensagem');
 
 form.addEventListener('submit', async (e) => {
-  e.preventDefault(); // Impede o HTML de recarregar a página
+  e.preventDefault();
   try {
     await criarNoticia({ titulo: titulo.value, corpo: corpo.value });
     mensagem.innerHTML = `Notícia criada com sucesso! <br>
