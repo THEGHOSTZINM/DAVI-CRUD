@@ -1,6 +1,3 @@
-// Custom elements do layout: header, nav e footer.
-// Todas as páginas usam as mesmas tags: <my-header>, <my-nav> e <my-footer>.
-
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -13,7 +10,6 @@ class MyHeader extends HTMLElement {
       </header>
     `;
 
-    // Botão ☰: abre e fecha o menu de navegação
     this.querySelector('#menu-btn').addEventListener('click', () => {
       document.querySelector('.box-nav').classList.toggle('ativo');
     });
@@ -21,7 +17,6 @@ class MyHeader extends HTMLElement {
 }
 customElements.define('my-header', MyHeader);
 
-// *** Nav ***
 class MyNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -37,7 +32,6 @@ class MyNav extends HTMLElement {
 }
 customElements.define('my-nav', MyNav);
 
-// *** Footer ***
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
