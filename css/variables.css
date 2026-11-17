@@ -1,16 +1,14 @@
 :root {
-    /* Paleta minimalista inspirada no Homem-Aranha */
-    --letter-color: #18181b;                 /* texto principal (preto suave) */
-    --muted-color: #52525b;                  /* texto secundário */
-    --background-color: #ffffff;             /* fundo dos cards e inputs */
-    --bodybackground-color: #f4f4f6;         /* fundo geral neutro */
-    --highlight-color: #d91e2a;              /* vermelho do uniforme */
-    --highlight-hover: #b81620;              /* vermelho escuro no hover */
-    --blue-color: #162b5c;                   /* azul-marinho profundo */
-    --blue-hover: #0f1e42;                   /* azul mais escuro no hover */
-    --border-color: #e4e4e7;                 /* bordas sutis */
-
-    /* Tipografia moderna e limpa */
+    --letter-color: #18181b;
+    --muted-color: #52525b;
+    --background-color: #ffffff;
+    --bodybackground-color: #f4f4f6;
+    --highlight-color: #d91e2a;
+    --highlight-hover: #b81620;
+    --blue-color: #162b5c;
+    --blue-hover: #0f1e42;
+    --border-color: #e4e4e7;
+    
     --font-base: 'Inter', system-ui, -apple-system, sans-serif;
     --font-title: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 
