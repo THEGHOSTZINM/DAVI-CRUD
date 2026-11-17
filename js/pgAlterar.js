@@ -31,7 +31,6 @@ async function carregar() {
   }
 }
 
-// Preenche o formulário com os dados da notícia selecionada
 function prepararEdit(noticia) {
   form.hidden = false;
   container.hidden = true;
