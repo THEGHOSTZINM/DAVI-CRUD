@@ -19,7 +19,6 @@ async function carregar() {
       container.textContent = 'Nenhuma notícia encontrada.';
       return;
     }
-    // Ordena da mais nova para a mais antiga e mostra só as 3 últimas
     noticias.sort((a, b) => b.id - a.id);
     noticias.slice(0, 3).forEach(noticia => container.append(criarCard(noticia)));
   } catch (erro) {
