@@ -22,7 +22,6 @@ section {
   margin-bottom: 32px;
 }
 
-/* Títulos das seções */
 main h2 {
   font-size: 1.75rem;
   text-align: center;
@@ -42,7 +41,6 @@ main > section > p {
   margin-bottom: 24px;
 }
 
-/* Mensagens de feedback: alerta minimalista com borda lateral vermelha */
 .mensagem {
   margin: 16px 0;
   padding: 0.75rem 1rem;
@@ -55,7 +53,6 @@ main > section > p {
 }
 .mensagem:empty { display: none; }
 
-/* Formulário */
 .box-form {
   display: flex;
   flex-direction: column;
@@ -89,7 +86,6 @@ main > section > p {
   box-shadow: 0 0 0 3px rgba(22, 43, 92, 0.12);
 }
 
-/* Galeria */
 .box-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -100,7 +96,6 @@ main > section > p {
   box-shadow: none;
 }
 
-/* Cards: brancos, retos e com destaque vermelho sutil no topo */
 .box-card {
   display: flex;
   flex-direction: column;
@@ -130,7 +125,6 @@ main > section > p {
   margin-top: auto;
 }
 
-/* Botões */
 button {
   padding: 10px 18px;
   font-family: var(--font-title);
